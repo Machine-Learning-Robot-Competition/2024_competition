@@ -31,7 +31,7 @@ git --no-pager log | head
 echo -e "\n************************ GIT STATUS ****************************"
 git status | head
 echo -e "\n################################################################\n"
-sleep 5s
+# sleep 5s
 
 # generate new plates if necessary
 if $generate_plates = 'true'
