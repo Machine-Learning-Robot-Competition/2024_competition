@@ -269,7 +269,7 @@
     <plugin name="B1_collision_plugin" filename="libcollision_plugin.so">
       <pubPeriod>2</pubPeriod>
       <pubTopic>B1_Hit</pubTopic>
-      <collisionObject1>B1</collisionObject1>
+      <collisionObject1>quadrotor</collisionObject1>
     </plugin>
     <plugin name="R1_collision_plugin" filename="libcollision_plugin.so">
       <pubPeriod>2</pubPeriod>
